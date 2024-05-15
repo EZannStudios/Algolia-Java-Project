@@ -47,7 +47,7 @@ An H2 in memory database was added to the application to run the tests.
 I also added a collection for the insomnia tool in \insomnia\Insomnia_2024-04-24.json with the login, get articles create article and delete article, in case Swagger is not enough.
 
 ## GitHub Actions
-A ci.yml file was added here \sebastian-sanchez-java-be\.github\workflows\ci.yml to rnu checkstyle linter and the application tests when pushing or opening a pull request.
+A ci.yml file was added here .github\workflows\ci.yml to rnu checkstyle linter and the application tests when pushing or opening a pull request.
 
 ## Assumptions and Choices
 - **Java 17 and Spring Boot 3.2.4** are chosen for their robustness and community support.
