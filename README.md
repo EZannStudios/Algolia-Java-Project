@@ -49,9 +49,6 @@ I also added a collection for the insomnia tool in \insomnia\Insomnia_2024-04-24
 ## GitHub Actions
 A ci.yml file was added here \sebastian-sanchez-java-be\.github\workflows\ci.yml to rnu checkstyle linter and the application tests when pushing or opening a pull request.
 
-## Test coverage
-![image](https://github.com/EZannStudios/Algolia-Java-Project/assets/69906433/94e7a2c9-06f7-4528-b11f-14076836113a)
-
 ## Assumptions and Choices
 - **Java 17 and Spring Boot 3.2.4** are chosen for their robustness and community support.
 - **PostgreSQL** is used for data persistence, chosen for its powerful features and compatibility with Docker.
