@@ -1,0 +1,15 @@
+spring:
+  security:
+    secret-key: ZNH2hWnwZ0HyAk3gEy7ZcgxnyzBBKQqgQcrFVx/MKug=
+    user:
+      name: challenge-username
+      password: challenge-password
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true

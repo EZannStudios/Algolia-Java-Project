@@ -1,0 +1,7 @@
+com\challenge\module\controllers\ArticleControllerTest.class
+com\challenge\module\controllers\UserAuthenticationControllerTest.class
+com\challenge\module\ChallengeApplicationTest.class
+com\challenge\module\helpers\JwtHelperTest.class
+com\challenge\module\utils\HtmlDecodeDeserializerTest.class
+com\challenge\module\services\impl\ArticleServiceImplTest.class
+com\challenge\module\mappers\AlgoliaJsonToArticleMapperTest.class
