@@ -15,7 +15,7 @@ public class AlgoliaApiArticlesFacadeImpl implements IArticlesFacade {
     private final HackerNewsClient hackerNewsClient;
 
     @Autowired
-    public AlgoliaApiArticlesFacadeImpl(HackerNewsClient hackerNewsClient) {
+    public AlgoliaApiArticlesFacadeImpl(final HackerNewsClient hackerNewsClient) {
         this.hackerNewsClient = hackerNewsClient;
     }
 
